@@ -32,6 +32,10 @@ tex_file="$temp_dir/${my_uuid_2}.tex"
 
 ipython nbconvert --latex-engine=texlive-xetex --to pdf "$input_file"
 
+## OR DO THIS
+jupyter nbconvert --to pdf /Users/amills/codes/lp-fall-2022/lp_programming_2.ipynb
+
+
 pandoc --pdf-engine="$pdf_engine" --wrap=preserve \
        --output="$temp_dir/temp-$file_dir-$file_name-$my_uuid.pdf"  \
        --variable=geometry:"margin=0.5cm, paperheight=421pt, paperwidth=595pt" \
