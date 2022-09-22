@@ -1,0 +1,11 @@
+{
+  "name": "alex_phd",
+  "bin": {
+    "ores-git-commit-all": "./scripts/git-commit-all.sh",
+    "ores-mv-most-recent-pub-to-final": "./scripts/publish-most-recent-file.sh"
+  },
+  "dependencies": {
+    "json-stdio": "^0.1.112",
+    "mathjs": "^11.1.0"
+  }
+}
