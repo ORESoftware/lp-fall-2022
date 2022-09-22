@@ -20,4 +20,4 @@ tlmgr install ulem
 tlmgr install mathrsfs
 tlmgr install jknapltx rsfs
 tlmgr install collection-fontsrecommended
-
+tlmgr install titling
