@@ -5,6 +5,7 @@
     "ores-mv-most-recent-pub-to-final": "./scripts/publish-most-recent-file.sh"
   },
   "dependencies": {
+    "@google-cloud/vision": "^3.0.1",
     "json-stdio": "^0.1.112",
     "mathjs": "^11.1.0"
   }
